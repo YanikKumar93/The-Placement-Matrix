@@ -1,4 +1,5 @@
 Hello Everyone !!!!
+
 This is a basic pyhton programme created for finding data like :
 1.  University Name (approx. 200)
 2.  UG and PG placement counts
@@ -13,4 +14,4 @@ This is a basic pyhton programme created for finding data like :
 
 for various colleges like IIT's , IIM's and may more. 
 
-This is a full user customizable code created using the matplotlib and padas modules of python.
+This is a full user customizable code created using the matplotlib and pandas modules of python.
