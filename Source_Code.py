@@ -84,10 +84,11 @@ while True:
                                 print("\nThanks for the confirmation !!!!\n")
                                 print(Choice_offered)
                                 Number_of_columns = (input("No. of columns you want to see (Range 1-12):"))
-                                if isinstance(Number_of_columns, int):
+                                Number_of_columns_1 = Input(Number_of_columns,[1,2,3,4,5,6,7,8,9,10,11,12])
+                                if isinstance(Number_of_columns_1, int):
                                     list_columns = []
                                     limit_1 = 0
-                                    while limit_1 < Number_of_columns:
+                                    while limit_1 < Number_of_columns_1:
                                         column_input = input(f"Please enter your choice of column {limit_1 + 1} :")
                                         column_input = Input(column_input, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
                                         if isinstance(column_input, int):
@@ -418,6 +419,9 @@ while True:
                                     while college_1 < custom_rows_1:
                                         x_n = input(f"Please enter the name of the college {college_1 + 1} : ")
                                         x_n_1 = x_n.upper()
+                                        if x_n_1 in x_labels_1:
+                                            print("⚠️ Please enter a new college name. This already exists. ⚠️\n")
+                                            continue
                                         if x_n_1 in Main_Table["Name of College"].values:
                                             x_labels_1.append(x_n_1)
                                             college_1 += 1
