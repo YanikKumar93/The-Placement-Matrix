@@ -12,7 +12,6 @@ This is a basic pyhton programme created for finding data like :
 9.  College Location
 10.  Top companies that visited
 
-for various colleges like IIT's , IIM's and may more. 
+for various colleges like IIT's , IIM's and many more. 
 
-This is a full user customizable code created using the matplotlib and pandas modules of python.
-
+This is a full user customizable code created using the matplotlib and pandas modules of python programming.
